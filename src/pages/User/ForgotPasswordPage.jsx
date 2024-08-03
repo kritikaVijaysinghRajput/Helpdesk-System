@@ -16,13 +16,17 @@ const ForgotPasswordPage = () => {
           placeholder="email"
           className="w-3/5 px-4 py-3 mb-4 outline-none text-2xl border border-black "
         />
-
-        <button className="  w-72 px-4 py-3 mt-5  text-white text-2xl rounded-2xl hover:bg-[#52e561] bg-[#03CC17]">
-          Submit
-        </button>
-        <button className="  w-72 px-4 py-3 mt-5  text-white text-2xl rounded-2xl hover:bg-blue-500 bg-blue-600">
-          Submit
-        </button>
+        <a href="/">
+          {" "}
+          <button className="  w-72 px-4 py-3 mt-5  text-white text-2xl rounded-2xl hover:bg-[#52e561] bg-[#03CC17]">
+            Submit
+          </button>
+        </a>
+        <a href="/">
+          <button className="  w-72 px-4 py-3 mt-5  text-white text-2xl rounded-2xl hover:bg-blue-500 bg-blue-600">
+            Sign in
+          </button>
+        </a>
       </div>
     </div>
   );

@@ -28,11 +28,13 @@ const HomePage = () => {
   };
 
   return (
-    <div className="flex h-screen">
+    <div className="flex h-auto">
       <Sidebar setCurrentPage={setCurrentPage} />
       <div className="flex-1 flex flex-col">
         <Navbar setCurrentPage={setCurrentPage} />
-        <div className="flex-1 p-4 bg-gray-100">{renderPage()}</div>
+        <div className="flex-1 p-4 bg-gray-100" style={{ minHeight: "82vh" }}>
+          {renderPage()}
+        </div>
         <footer className="bg-[#55D6C2] p-4 text-center text-black font-semibold">
           Footer Area
         </footer>

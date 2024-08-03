@@ -20,15 +20,23 @@ const SignInPage = () => {
           placeholder="Password"
           className="w-3/5 px-4 py-3 mb-4 outline-none text-2xl border border-black "
         />
+        <a href="/user/home">
+          <button className="  w-72 px-4 py-3 mt-5  text-white text-2xl rounded-2xl hover:bg-[#52e561] bg-[#03CC17]">
+            Sign In
+          </button>
+        </a>
 
-        <button className="  w-72 px-4 py-3 mt-5  text-white text-2xl rounded-2xl hover:bg-[#52e561] bg-[#03CC17]">
-          Sign In
-        </button>
         <div className="flex mt-7 ">
-          <p className="text-red-500 font-semibold text-xl mr-60 ">
-            Forgot Password
-          </p>
-          <p className="text-black font-semibold text-xl mr-9 ">Sign Up</p>
+          <a href="/forgotPassword">
+            {" "}
+            <p className="text-red-500 font-semibold text-xl mr-60 ">
+              Forgot Password
+            </p>
+          </a>
+          <a href="/signup">
+            {" "}
+            <p className="text-black font-semibold text-xl mr-9 ">Sign Up</p>
+          </a>
         </div>
       </div>
     </div>

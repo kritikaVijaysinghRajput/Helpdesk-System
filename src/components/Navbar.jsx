@@ -13,7 +13,9 @@ const Navbar = ({ setCurrentPage }) => {
           onClick={() => setCurrentPage("Profile")}
           className="cursor-pointer"
         />
-        <img src={arrow} alt="arrow" />
+        <a href="/">
+          <img src={arrow} alt="arrow" />
+        </a>
       </div>
     </div>
   );

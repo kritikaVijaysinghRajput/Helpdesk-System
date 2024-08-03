@@ -28,13 +28,18 @@ const SignUpPage = () => {
           placeholder="Email"
           className="w-3/5 px-4 py-3 mb-8 text-2xl outline-none border border-black "
         />
-        <button className=" w-72 px-4 py-3 bg-blue-600  text-white text-2xl rounded-2xl hover:bg-blue-500">
-          Sign Up
-        </button>
+        <a href="/operationTeam/home">
+          <button className=" w-72 px-4 py-3 bg-blue-600  text-white text-2xl rounded-2xl hover:bg-blue-500">
+            Sign Up
+          </button>
+        </a>
+
         <div className="flex mt-5 ">
-          <p className="text-red-500 font-semibold text-xl mr-60 ">
-            Forgot Password
-          </p>
+          <a href="/forgotPassword">
+            <p className="text-red-500 font-semibold text-xl mr-60 ">
+              Forgot Password
+            </p>
+          </a>
           <p className="text-black font-semibold text-xl mr-9 ">Sign in</p>
         </div>
       </div>
